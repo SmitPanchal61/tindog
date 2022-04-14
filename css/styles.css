@@ -1,0 +1,173 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 5% 10% 8%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/* navigation bar */
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* download buttons */
+
+.download-button {
+  margin: 3% 5% 3% 0;
+}
+
+/* title image */
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+@media (max-width:1000px) {
+
+  .title-image {
+    position:static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* features section */
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.features {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-image {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-image:hover {
+  color: #ff4c68;
+}
+
+.feature-heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.feature-para {
+  color: #8f8f8f;
+}
+
+/* testimonial section */
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial-header {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+/* carousel setting to widen the buttons */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+/* <!-- Call to Action --> */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7%;
+}
+
+.cta-header {
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 2%;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding: 2%;
+}
+
+.brands {
+  padding: 10px;
+}
+
+.footer-p {
+  margin-top: 15px;
+}
